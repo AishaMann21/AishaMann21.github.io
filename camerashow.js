@@ -33,7 +33,7 @@ function sendEmail(photoUrl) {
   var description= document.querySelector('.description').value;
   var id= document.querySelector('.id').value;
   var subject = 'Check out this photo!';
-  var content = '<img src="' + photoUrl + '" width="300">'+ ' '+ ' Student Id: ' + id + ' Description: ' + description;
+  var content = '<img src="' + photoUrl + '" width="300">'+ '<br> '+ ' Student Id: ' + id + ' Description: ' + description;
   var fromEmail = 'SnapKlean@codeforward.tech';
   $.ajax({
     type: "POST",
