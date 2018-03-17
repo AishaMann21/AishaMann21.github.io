@@ -1,5 +1,9 @@
 body{
      font-family: monospace;
+     font-size: 16px;
+     margin: 50px auto;
+     max-width: 900px;
+     padding: 0 20px;
 }
 button{
        display: block;
@@ -21,14 +25,19 @@ img{
 h1{
     text-align: center;
 }
-#url{
-      width:200px;
-      margin:auto;
+
+a{
+  background: red;
+  color: white;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 24px;
+  text-decoration: none;
 }
-#photo{
-       display: inline-block;
-       position: relative;
-       left: 45%;
-       transform: translateX(-50%);
-       margin: 10px;
+.upload-image-input {
+  display: none;
+}
+textarea {
+  font-family: monospace;
+  font-size: 18px;
 }

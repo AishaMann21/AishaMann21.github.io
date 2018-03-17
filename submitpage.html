@@ -2,27 +2,29 @@
 <html>
     <head>
         <title>Final MVP</title>
+        <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
     </head>
     <body>
      <h1>Submit Page</h1>
      <div class="Submit">
        <form>
         <h3>Principal's Email</h3>
-       <textarea name="message" rows="2" cols="80"></textarea>
+       <textarea name="message" rows="2" cols="80" class="email"></textarea>
        </form>
-       <img src="https://renderman.pixar.com/assets/camaleon_cms/image-not-found-4a963b95bf081c3ea02923dceaeb3f8085e1a654fc54840aac61a57a60903fef.png">
      <div>
        <h3>Student ID Number</h3>
-       <textarea name="message" rows="3" cols="30"></textarea>
+       <textarea name="message" rows="3" cols="30" class="id"></textarea>
      </div>
      <div>
-       <h3>Description</h3>
-        <textarea name="message" rows="10" cols="80"></textarea>
+        <h3>Description</h3>
+        <textarea name="message" rows="10" cols="80" class="description"></textarea>
      </div>
-     <h3>Location</h3>
-     <h3>Date and Time</h3>
-     <button onclick="location.href = 'thankyou.html';" id="myButton" class="float-left submit-button" >Send</button>
+    <p><img src="" class="image"></p>
+    <p><a href="javascript:;" class="send-email">Send</a></p>
 
+      <script src="camerashow.js"></script>
     </body>
 </html>
