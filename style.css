@@ -19,12 +19,11 @@ button{
 }
 
 img{
-    justify-content: center;
-    display: block;
-    margin: 0 auto;
-    padding-bottom: 30px;
-    vertical-align: middle;
-
+margin-top: 300px;
+display: block;
+padding-bottom: 30px;
+padding-left: 50px;
+padding-right: 50px;
 }
 h1{
     text-align: center;
