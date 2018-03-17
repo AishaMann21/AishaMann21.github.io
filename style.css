@@ -4,18 +4,21 @@ body{
      margin: 50px auto;
      max-width: 900px;
      padding: 0 20px;
+     background-color: #00bfff;
+     color: white
 }
 button{
        display: block;
        margin: 0 auto;
-       background-color:red;
+       background-color:white;
        border: none;
-       color: white;
+       color:#00bfff ;
        padding: 15px 32px;
        text-align: center;
        text-decoration: none;
        font-size: 16px;
 }
+
 img{
     justify-content: center;
     display: block;
@@ -27,8 +30,8 @@ h1{
 }
 
 a{
-  background: red;
-  color: white;
+  background: white;
+  color: #00bfff;
   display: inline-block;
   padding: 10px 20px;
   font-size: 24px;
