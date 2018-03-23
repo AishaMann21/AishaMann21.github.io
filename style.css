@@ -71,10 +71,6 @@ a{
 .upload-image-input {
     display: none;
 }
-textarea {
-   font-family: monospace;
-   font-size: 18px;
-}
 #logo{
     width: 200px;
     margin: 60px auto;
@@ -113,6 +109,8 @@ textarea{
     margin-left: 10px;
     background-color:white;
     padding: 1em 0 1em 0;
+    padding: 10px;
+    font-family: monospace;
 }
 
 h3{
