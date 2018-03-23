@@ -20,18 +20,24 @@ button {
        text-align: center;
        text-decoration: none;
        font-size: 16px;
+       margin-left:60%;
+       width:100px;
+
+
 }
 #myButton{
-  display: block;
-  margin-top: 100px;
-  margin-left: 155px;
-  background-color:white;
-  border: none;
-  color:#00FFFF ;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 16px;
+      display: block;
+      margin-top: 100px;
+      margin-left: 185px;
+      background-color:white;
+      border: none;
+      color:#00FFFF ;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 16px;
+      margin-left:40%;
+      width:100px;
 }
 
 img {
@@ -44,6 +50,7 @@ img {
 
 h1 {
     text-align: center;
+    font-size: 24px;
 }
 
 a{
@@ -51,7 +58,7 @@ a{
     color: #00bfff;
     display: inline-block;
     padding: 10px 20px;
-    margin-top: 260px;
+    margin-top: 240px;
     margin-left: 95px;
     font-size: 24px;
     text-decoration: none;
@@ -65,39 +72,33 @@ textarea {
    font-size: 18px;
 }
 #logo{
-background-position: left top;
-margin: 0px;
-float: left;
+
 }
 #body3{
   margin:0px;
   padding:10px;
 }
 #submitbutton{
-  display: block;
-  margin-top: 100px;
-  margin-left: 200px;
-  background-color:white;
-  border: none;
-  color:#00FFFF ;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 25px;
+      display: block;
+      margin-top: 100px;
+      margin-left: 185px;
+      background-color:white;
+      border: none;
+      color:#00FFFF ;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 16px;
+      margin-left:70%;
+      width:100px;
 }
 #submitimage{
-  margin-bottom:1px;
-  margin-top: 20px;
-  margin-left: 10px;
-  margin-right: 100px;
-  padding:100px;
-  padding-bottom: 40px;
+      margin: 30px;
+      padding:80px;
 }
 .image{
-
-  max-width:500px;
-  max-height: 500px;
+  max-width:520px;
+  max-height: 520px;
 }
 textarea{
     display: inline-block;
@@ -105,4 +106,23 @@ textarea{
     clear: left;
     width: 600px;
     text-align: left;
+    border-color: white;
+    margin: 20px;
+}
+h3{
+  margin: 10px;
+}
+#finalbutton{
+  display: block;
+  margin-top: 100px;
+  margin-left: 185px;
+  background-color:white;
+  border: none;
+  color:#00FFFF ;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin-left:37%;
+  width:100px;
 }

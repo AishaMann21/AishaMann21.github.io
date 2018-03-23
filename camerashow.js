@@ -6,7 +6,7 @@ var sendEmailButton = document.querySelector('.send-email');
 sendEmailButton.addEventListener('click', uploadImageToImgur);
 
 function uploadImageToImgur() {
-  sendEmailButton.textContent = 'Sending photo...';
+  sendEmailButton.textContent = 'Sending Photo...';
   $.ajax({
     type: "POST",
     url: "https://api.imgur.com/3/image",
@@ -33,7 +33,7 @@ function sendEmail(photoUrl) {
   var description= document.querySelector('.description').value;
   var id= document.querySelector('.id').value;
   var subject = 'Student SnapKlean Report';
-  var content = '<img src="' + photoUrl + '" width="300">'+ '<br> '+ ' Student Id: ' + id + ' Description: ' + description;
+  var content = '<img src="' + photoUrl + '" width="300">'+ '<br> '+ ' Student Id: ' + id + '<br>'+' Description: ' + description;
   var fromEmail = 'SnapKlean@codeforward.tech';
   $.ajax({
     type: "POST",
@@ -53,10 +53,12 @@ function sendEmail(photoUrl) {
         'html': content
       }
     }
+
    }).done(function(response) {
      console.log(response);
      sendEmailButton.textContent = 'Send';
      location.href = 'thankyou.html';
    });
+
 
 }
