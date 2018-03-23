@@ -10,43 +10,43 @@ body{
      background-image: url('http://78.media.tumblr.com/0bc115ce38ff12ce1149f332045dfad9/tumblr_ntq1dsElnk1txe8seo1_500.gif');
 }
 button {
-       display: block;
-       margin-top: 100px;
-       margin-left: 185px;
-       background-color:white;
-       border: none;
-       color:#00FFFF ;
-       padding: 15px 32px;
-       text-align: center;
-       text-decoration: none;
-       font-size: 16px;
-       margin-left:60%;
-       width:100px;
-
-
+  display: block;
+  background-color:white;
+  color:#00FFFF ;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin-left:37%;
+  width: 150px;
+  text-align: center;
+  margin:0 auto;
+  margin-top: 30px;
 }
 #myButton{
-      display: block;
-      margin-top: 100px;
-      margin-left: 185px;
-      background-color:white;
-      border: none;
-      color:#00FFFF ;
-      padding: 15px 32px;
-      text-align: center;
-      text-decoration: none;
-      font-size: 16px;
-      margin-left:40%;
-      width:100px;
+  width: 150px;
+ text-align: center;
+ margin:0 auto;
+ margin-top: 30px;
 }
 
 img {
-    margin-top: 260px;
-    display: block;
-    padding-bottom: 30px;
-    padding-left: 50px;
-    padding-right: 50px;
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 50px;
+ width: 100%;
+ max-width: 600px;
 }
+.homelogo{
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 220px;
+ width: 100%;
+ max-width: 600px;
+}
+
 
 h1 {
     text-align: center;
@@ -54,14 +54,18 @@ h1 {
 }
 
 a{
-    background: white;
-    color: #00bfff;
-    display: inline-block;
-    padding: 10px 20px;
-    margin-top: 240px;
-    margin-left: 95px;
-    font-size: 24px;
-    text-decoration: none;
+  display: block;
+  background-color:white;
+  color:#00FFFF ;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin-left:37%;
+  width: 150px;
+  text-align: center;
+  margin:0 auto;
+  margin-top: 250px;
 
 }
 .upload-image-input {
@@ -72,57 +76,59 @@ textarea {
    font-size: 18px;
 }
 #logo{
+    width: 200px;
+    margin: 60px auto;
+    display: block;
+}
+#logo1{
+  width: 200px;
+  margin: 50px;
+  margin-left: 45%;
+  display: block;
+}
 
-}
-#body3{
-  margin:0px;
-  padding:10px;
-}
 #submitbutton{
-      display: block;
-      margin-top: 100px;
-      margin-left: 185px;
-      background-color:white;
-      border: none;
-      color:#00FFFF ;
-      padding: 15px 32px;
-      text-align: center;
-      text-decoration: none;
-      font-size: 16px;
-      margin-left:70%;
-      width:100px;
-}
+  width: 150px;
+ text-align: center;
+ margin:0 auto;
+ margin-top: 10%;
+ margin-left: 42%;
+      }
 #submitimage{
       margin: 30px;
       padding:80px;
 }
+
 .image{
   max-width:520px;
   max-height: 520px;
 }
+
 textarea{
-    display: inline-block;
-    float: left;
-    clear: left;
-    width: 600px;
-    text-align: left;
-    border-color: white;
-    margin: 20px;
+    width:550px;
+    border:solid 5px white;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 0;
+    margin-left: 10px;
+    background-color:white;
+    padding: 1em 0 1em 0;
 }
+
 h3{
   margin: 10px;
 }
 #finalbutton{
   display: block;
-  margin-top: 100px;
-  margin-left: 185px;
   background-color:white;
-  border: none;
   color:#00FFFF ;
-  padding: 15px 32px;
+  padding: 15px;
   text-align: center;
   text-decoration: none;
   font-size: 16px;
   margin-left:37%;
-  width:100px;
+  width: 150px;
+  text-align: center;
+  margin:0 auto;
+  margin-top: 30px;
 }
