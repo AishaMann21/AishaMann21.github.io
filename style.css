@@ -22,14 +22,14 @@ button {
   text-align: center;
   margin:0 auto;
   margin-top: 30px;
-  border: none;
+  border: white;
 }
 #myButton{
   width: 150px;
  text-align: center;
  margin:0 auto;
  margin-top: 30px;
- border: none;
+ border: white;
 }
 
 img {
@@ -68,7 +68,7 @@ a{
   text-align: center;
   margin:0 auto;
   margin-top: 250px;
-  border: none;
+  border: white;
 
 }
 .upload-image-input {
@@ -92,7 +92,7 @@ a{
  margin:0 auto;
  margin-top: 10%;
  margin-left: 42%;
- border: none;
+ border: white;
       }
 #submitimage{
       margin: 30px;
@@ -133,4 +133,5 @@ h3{
   text-align: center;
   margin:0 auto;
   margin-top: 30px;
+  border: white;
 }
