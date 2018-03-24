@@ -93,7 +93,7 @@ a{
  margin-top: 10%;
  margin-left: 42%;
  border: white;
-      }
+  }
 #submitimage{
       margin: 30px;
       padding:80px;
@@ -115,6 +115,7 @@ textarea{
     padding: 1em 0 1em 0;
     padding: 10px;
     font-family: monospace;
+    font-size: 50px;
 }
 
 h3{
